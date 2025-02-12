@@ -28,10 +28,6 @@
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
         </config-file>
-            
-        <config-file target="AndroidManifest.xml" parent="/*">
-            <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
-        </config-file>
 
         <source-file src="src/android/ClearData.java" target-dir="src/cordova/plugin" />
 
